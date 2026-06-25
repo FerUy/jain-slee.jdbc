@@ -19,7 +19,7 @@
     </modules>
 
     <properties>
-        <compiler.plugin.version>3.8.1</compiler.plugin.version>
+        <compiler.plugin.version>3.14.1</compiler.plugin.version>
         <compile.source>11</compile.source>
     </properties>
 
