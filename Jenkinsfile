@@ -73,7 +73,7 @@ pipeline {
                 	sh "scp -r ${JDBC_BUILD_VERSION}/ fer@127.0.0.1:/var/www/html/NAIKERI/jain-slee.jdbc/${JDBC_BUILD_VERSION}/"
                 }*/
                 sh "mkdir -p /var/www/html/NAIKERI/jain-slee.jdbc/${JDBC_BUILD_VERSION}/"
-                sh "cp ${JDBC_BUILD_VERSION}/ /var/www/html/NAIKERI/jain-slee.jdbc/${JDBC_BUILD_VERSION}/"
+                sh "cp -r ${JDBC_BUILD_VERSION}/ /var/www/html/NAIKERI/jain-slee.jdbc/${JDBC_BUILD_VERSION}/"
 				sh "rm -rf ${JDBC_BUILD_VERSION}"
 			}
 		}
